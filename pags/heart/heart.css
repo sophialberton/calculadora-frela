@@ -11,30 +11,6 @@
     margin-bottom: 0.5rem; /* REDUZIDO: Espaço abaixo do container (era 1rem) */
 }
 
-/*
- * HIERARQUIA DE TÍTULOS
- * Define estilos consistentes para headings
- */
-
-/* Título principal (h1)*/
-h1 {
-    font-size: 1.75rem;
-    font-weight: 700;
-}
-
-/* Subtítulos (h2) */
-h2 {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-    color: var(--primary);
-}
-
-/* Títulos menores (h3) - usado nos cards */
-h3 {
-    font-size: 1.2rem;
-    margin-bottom: 0.5rem;
-}
-
 /* 
  * CONTEÚDO PRINCIPAL (MAIN)
  * Container para as seções de conteúdo
@@ -54,7 +30,7 @@ main {
     border-radius: 8px; /* Bordas arredondadas */
     box-shadow: var(--shadow); /* Sombra usando variável CSS */
 }
-
+ 
 /* Grid dos fatores de cálculo */
 .fatores {
     display: grid; /* Layout em grid */

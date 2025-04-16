@@ -196,3 +196,27 @@ button i, .btn i {
 .botao-acao:hover::after, .botao-acao-anterior:hover::after {
     width: 100%;
 }
+
+/*
+ * HIERARQUIA DE TÍTULOS
+ * Define estilos consistentes para headings
+ */
+
+/* Título principal (h1)*/
+h1 {
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+/* Subtítulos (h2) */
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: var(--primary);
+}
+
+/* Títulos menores (h3) - usado nos cards */
+h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
